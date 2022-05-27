@@ -26,10 +26,10 @@ def main():
 
     plot_Q_values(Q, "Monte Carlo Control")
 
-    Q_sarsa = sarsa(env, 100000)
+    Q_sarsa = sarsa.sarsa(env, 100000)
     plot_Q_values(Q_sarsa, "Temporal Difference Learning")
 
-    q_learn = q_learning(env, 100000)
+    q_learn = q_learning.q_learning(env, 100000)
     plot_Q_values(q_learn, "Q learning")
 
 
