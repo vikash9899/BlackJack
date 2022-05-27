@@ -133,4 +133,4 @@ class BlackJack:
             return False
 
     def __delta_card(self):
-        return np.random.randint(0, 13)
+        return np.random.randint(1, 13)
