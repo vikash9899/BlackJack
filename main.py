@@ -24,13 +24,13 @@ def main():
     env = bj.BlackJack()
     Q, history = monet_carlo.Monte_carlo(env, 10000)
 
-    plot_Q_values(Q)
+    plot_Q_values(Q, "Monte Carlo Control")
 
     Q_sarsa = sarsa(env, 100000)
-    
+    plot_Q_values(Q_sarsa, "Temporal Difference Learning")
 
-    
     q_learn = q_learning(env, 100000)
+    plot_Q_values(q_learn, "Q learning")
 
 
 if __name__ == '__main__':
