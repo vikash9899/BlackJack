@@ -103,3 +103,5 @@ Off-policy refers to interacting with the environment through the 𝜇 strategy 
 1. Richard S. Sutton and Andrew G. Barto Ⓒ 2014, 2015
 
 2. David Silver youtube videos : <https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ>
+
+3. Steve Brunton lectures <https://www.youtube.com/playlist?list=PLMrJAkhIeNNQe1JXNvaFvURxGY4gE9k74>
